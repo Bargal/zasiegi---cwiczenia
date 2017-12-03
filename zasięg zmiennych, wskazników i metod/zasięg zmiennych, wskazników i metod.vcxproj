@@ -111,7 +111,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="innKlasa.cpp" />
+    <ClCompile Include="klasaMain.cpp" />
+    <ClCompile Include="klasaSub.cpp" />
+    <ClCompile Include="klasaSubPriv.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="plik1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="innKlasa.h" />
+    <ClInclude Include="klasaMain.h" />
+    <ClInclude Include="klasaSub.h" />
+    <ClInclude Include="klasaSubPriv.h" />
+    <ClInclude Include="plik1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
